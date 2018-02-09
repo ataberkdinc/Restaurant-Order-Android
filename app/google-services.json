@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "877427203135",
+    "firebase_url": "https://restorantakip.firebaseio.com",
+    "project_id": "restorantakip",
+    "storage_bucket": "restorantakip.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877427203135:android:ec8cee12febe2697",
+        "android_client_info": {
+          "package_name": "com.ataberkdinc.restoransiparissistemi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877427203135-imq8ff4q7smt6asqfgq2psa1heeuu96g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ataberkdinc.restoransiparissistemi",
+            "certificate_hash": "25cb4760a22a0a0296941883c6f87e27110f7d5e"
+          }
+        },
+        {
+          "client_id": "877427203135-pl5jmvl9qtbqsavitf4hrj2rdocsvq38.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSG200Y-M58HF7Cx134y9BHEcp8Ik27Uw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "877427203135-pl5jmvl9qtbqsavitf4hrj2rdocsvq38.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/my_bg"
-    tools:context="com.ataberkdinc.restoransiparissistemi.GirisEkrani">
+    tools:context="com.ataberkdinc.restoransiparissistemi.Home">
 
         <LinearLayout
             android:orientation="vertical"

@@ -40,6 +40,7 @@ public class FoodList extends AppCompatActivity {
     FirebaseRecyclerAdapter<Food,FoodViewHolder> searchAdapter;
     List<String> suggestList = new ArrayList<>();
     MaterialSearchBar materialSearchBar;
+    RecyclerView recyclerViewass;
 
 
 

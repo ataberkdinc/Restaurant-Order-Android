@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class  GirisEkrani extends AppCompatActivity {
+public class Home extends AppCompatActivity {
 
     Button btnSignIn,btnSignUp;
     TextView txtSlogan;
@@ -16,13 +16,13 @@ public class  GirisEkrani extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_giris_ekrani);
+        setContentView(R.layout.activity_home);
 
         btnSignIn = (Button)findViewById(R.id.btnSignIn);
         btnSignUp = (Button)findViewById(R.id.btnSignUp);
 
         txtSlogan = (TextView)findViewById(R.id.txtSlogan);
-        Typeface face = Typeface.createFromAsset(getAssets(),"fonts/NABILA.TTF");
+        Typeface face = Typeface.createFromAsset(getAssets(),"fonts/C.TTF");
         txtSlogan.setTypeface(face);
 
 
@@ -30,7 +30,7 @@ public class  GirisEkrani extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent signUp = new Intent(GirisEkrani.this,SignUp.class);
+                Intent signUp = new Intent(Home.this,SignUp.class);
                 startActivity(signUp);
 
             }
@@ -41,7 +41,7 @@ public class  GirisEkrani extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent signIn = new Intent(GirisEkrani.this,SignIn.class);
+                Intent signIn = new Intent(Home.this,SignIn.class);
                 startActivity(signIn);
 
             }

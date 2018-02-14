@@ -36,7 +36,7 @@
             android:id="@+id/editName"
             android:hint="Isim"
             android:textColorHint="@android:color/white"
-            android:text="Tom Cruise"
+            android:text="Ataberk"
             android:textColor="@android:color/white"
             android:textSize="34sp"
             android:inputType="text"
@@ -69,7 +69,7 @@
 
     <info.hoang8f.widget.FButton
         android:id="@+id/btnSignUp"
-        android:text="SIGN UP"
+        android:text="KAYIT OL"
         android:textColor="@android:color/white"
         android:layout_weight="1"
         android:layout_marginRight="8dp"

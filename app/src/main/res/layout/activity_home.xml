@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/my_bg"
-    tools:context="com.ataberkdinc.restoransiparissistemi.GirisEkrani">
+    tools:context="com.ataberkdinc.restoransiparissistemi.Home">
 
         <LinearLayout
             android:orientation="vertical"
@@ -14,16 +14,18 @@
             android:layout_height="wrap_content">
 
                 <ImageView
-                    android:src="@drawable/logo_eat_it"
-                    android:layout_width="200dp"
-                    android:layout_height="200dp" />
-                <TextView
-                    android:gravity="center"
-                    android:text="@string/slogan"
-                    android:id="@+id/txtSlogan"
-                    android:textColor="@android:color/white"
-                    android:layout_width="200dp"
-                    android:layout_height="wrap_content" />
+                    android:src="@drawable/giris_logo"
+                    android:layout_width="300dp"
+                    android:layout_height="250dp" />
+
+            <TextView
+                android:id="@+id/txtSlogan"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:text="@string/slogan"
+                android:textSize="25sp" />
             
             
         </LinearLayout>
@@ -37,7 +39,7 @@
             
             <info.hoang8f.widget.FButton
                 android:id="@+id/btnSignUp"
-                android:text="SIGN UP"
+                android:text="KAYIT OL"
                 android:textColor="@android:color/white"
                 android:layout_weight="1"
                 android:layout_width="0dp"
@@ -52,8 +54,8 @@
 
             <info.hoang8f.widget.FButton
                 android:id="@+id/btnSignIn"
-                android:text="SIGN IN"
-                android:textColor="@android:color/white"
+                android:text="GIRIS YAP"
+                android:textColor="@color/colorGray"
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"

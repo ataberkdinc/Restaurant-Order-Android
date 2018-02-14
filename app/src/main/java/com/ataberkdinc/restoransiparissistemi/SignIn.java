@@ -1,6 +1,7 @@
 package com.ataberkdinc.restoransiparissistemi;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -8,6 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.ataberkdinc.restoransiparissistemi.Common.Common;
 import com.ataberkdinc.restoransiparissistemi.Model.User;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -53,8 +55,14 @@ public class SignIn extends AppCompatActivity {
 
                             mDialog.dismiss();
                             User user = dataSnapshot.child(editPhone.getText().toString()).getValue(User.class);
+                            user.setPhone(editPhone.getText().toString());
                             if (user.getPassword().equals(editPassword.getText().toString())) {
-                                Toast.makeText(SignIn.this, "Basariyla giris yapildi!", Toast.LENGTH_SHORT).show();
+                                {
+                                    Intent homeIntent = new Intent(SignIn.this,NavigationMenu.class);
+                                    Common.curentUser = user;
+                                    startActivity(homeIntent);
+                                    finish();
+                                }
                             } else {
                                 Toast.makeText(SignIn.this, "Yanlis sifre!", Toast.LENGTH_SHORT).show();
                             }

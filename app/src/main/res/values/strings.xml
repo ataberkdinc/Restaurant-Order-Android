@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Restoran Siparis Sistemi</string>
-    <string name="slogan">Nerede olursaniz olun , aciktiniz mi? Her zaman heryerden siparis verebilirsiniz. Tesekkurler</string>
+    <string name="slogan">Nerede olursaniz olun , aciktiniz mi? Her zaman heryerden siparis verebilirsiniz.</string>
+    <string name="title_activity_navigation_menu">NavigationMenu</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
 </resources>

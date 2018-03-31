@@ -29,7 +29,7 @@ class CartViewHoler extends RecyclerView.ViewHolder implements View.OnClickListe
     public TextView txt_cart_name,txt_price;
     public ImageView img_cart_count;
 
-    private ItemClickListener ıtemClickListener;
+    private ItemClickListener itemClickListener;
 
     public void setTxt_cart_name(TextView txt_cart_name) {
         this.txt_cart_name = txt_cart_name;
@@ -44,6 +44,8 @@ class CartViewHoler extends RecyclerView.ViewHolder implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
+
+        
 
     }
 }
@@ -67,6 +69,9 @@ public class CartAdapter extends RecyclerView.Adapter<CartViewHoler>{
 
     @Override
     public void onBindViewHolder(CartViewHoler holder, int position) {
+
+
+
 
         TextDrawable drawable = TextDrawable.builder()
                 .buildRound(""+listData.get(position).getQuantity(), Color.GRAY);

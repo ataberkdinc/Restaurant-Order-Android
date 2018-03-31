@@ -31,13 +31,13 @@ public class OrderViewHolder extends RecyclerView.ViewHolder implements View.OnC
     }
 
     public void setItemClickListener(ItemClickListener itemClickListener) {
-       // this.itemClickListener = itemClickListener;
+        this.itemClickListener = itemClickListener;
     }
 
     @Override
     public void onClick(View view) {
 
-       // itemClickListener.onClick(view,getAdapterPosition(),false);
+        itemClickListener.onClick(view,getAdapterPosition(),false);
 
     }
 }
